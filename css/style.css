@@ -27,6 +27,7 @@ aside h1 {
     
 }
 
+
 #buttons li {
     list-style: none;
     padding: 5px 5px 5px 5px;
@@ -99,3 +100,6 @@ section {
     text-align: center;
 }
 
+h3 {
+    text-decoration: underline;
+}
