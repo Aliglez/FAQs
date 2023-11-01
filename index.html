@@ -45,6 +45,79 @@
                 <h3>WebAssembly</h3>
                 WebAssembly, soportado por todos los navegadores más conocidos (p. ej. aquellos desarrollados por Google, Apple, Mozilla y Microsoft), es la única alternativa a JavaScript para poder ejecutar código en navegadores web (sin la ayuda de complementos, como Flash, Java o Silverlight; todos ellos depreciados, ya que los navegadores están dejando de dar soporte a los complementos). Con anterioridad a esta medida, existía asm.js (un módulo de JavaScript; permitiendo así que funcione en todos los navegadores), que se usaba como compilador para navegadores como Internet Explorer 11; y para aquellos navegadores que no soportaban WebAssembly directamente, se podía compilar en asm.js y darle soporte de esa manera. En general, los programadores no codifican en WebAssembly (o en asm.js) directamente, sino que utilizan lenguajes como Rust, C, C++, o en teoría cualquier lenguaje que pueda compilarlo.
             </p>
+
+            
+    <h1 id="ConceptosHTML">
+        Conceptos básicos de html
+    </h1>
+    <p>
+        El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos. Como lo sugiere el título, este artículo te dará una comprensión básica de HTML y cúal es su función.
+
+        <h2>Entonces, ¿qué es HTML en realidad?</h2>
+        HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc. Por ejemplo, toma la siguiente línea de contenido:
+        
+        <div class="code_example">
+            <p class="example-header">
+                <span id="html">
+                    HTML
+                </span>
+                <button type="button" class="icon_copy">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copy" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+                        <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
+                      </svg>
+                </button>                       
+            </p>
+            <p class="example-header2">
+                <span id="cat">
+                    Mi gato es muy gruñon
+                </span>
+            </p>
+
+        </div>
+        
+        <div>
+            <p>
+                Si quieres especificar que se trata de un párrafo, podrías encerrar el texto con la etiqueta de párrafo (&ltp&gt):
+            </p>
+        </div>
+        <div class="code_example">
+            <p class="example-header">
+                <span id="html">
+                    HTML
+                </span>
+                <button type="button" class="icon_copy">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copy" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+                        <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
+                      </svg>
+                </button>                       
+            </p>
+            <p class="example-header2">
+                <span id="cat">
+                    &ltp&gtMi gato es muy gruñon&ltp&gt
+                </span>
+            </p>
+
+        <h2>Anatomía de un elemento HTML</h2>
+        <p>
+            Explora este párrafo en mayor profundidad.
+
+            <div id="imgAnatomia">
+            <img src="./assets/img/grumpy-cat-small.png" alt="partes del html">
+            </div>
+            Las partes principales del elemento son:
+
+            La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo—.
+            La etiqueta de cierre: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.
+            El contenido: este es el contenido del elemento, que en este caso es sólo texto.
+            El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.
+        </p>    
+
+        </div>
+    </p>
 </section>        
 
     </div>

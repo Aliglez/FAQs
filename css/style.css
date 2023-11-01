@@ -61,4 +61,41 @@ section {
     padding-left: 25%;
 
 }
+.example-header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: grey solid 2px;
+    margin-bottom: 0;
+    background-color: beige;
+    margin-top: 0;
+}
+
+.example-header .icon_copy {
+    margin-right: 1%;
+} 
+
+.example-header2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 0;
+    background-color: beige;
+    margin-top: 0;
+}
+.example-header #html {
+    padding: 1%;
+}
+
+.example-header2 {
+    height: 2rem;
+    padding: 1%;
+
+}
+
+#imgAnatomia {
+    justify-content: center;
+    padding: 1%;
+    text-align: center;
+}
 
