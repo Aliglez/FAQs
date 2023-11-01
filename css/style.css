@@ -54,3 +54,11 @@ button {
     border-color: black;
 }
 
+section {
+    width: 75%;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 25%;
+
+}
+
